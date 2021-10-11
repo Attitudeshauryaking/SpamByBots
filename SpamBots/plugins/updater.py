@@ -17,11 +17,11 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = "https://github.com/ANMOL12334/SpamByBots"
-BOT_IS_UP_TO_DATE = "**The 𝐒𝐏𝐀𝐌𝐁𝐎𝐓** is up-to-date sur."
+BOT_IS_UP_TO_DATE = "**𝐀𝐓𝐓𝐈𝐓𝐔𝐃𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "updating your 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ..."
+    "𝐀𝐓𝐓𝐈𝐓𝐔𝐃𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ..."
 )
 NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your 𝐒𝐏𝐀𝐌𝐁𝐎𝐓...`"
 REPO_REMOTE_NAME = "temponame"
@@ -37,7 +37,7 @@ RESTARTING_APP = "re-starting heroku application"
 )
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = " 🔰𝐔𝐏𝐃𝐀𝐓𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓🔰....\n𝐓𝐘𝐏𝐄 /𝐩𝐢𝐧𝐠 𝐀𝐅𝐓𝐄𝐑 𝟓 𝐌𝐈𝐍𝐒 𝐓𝐎 𝐂𝐇𝐄𝐂𝐊 𝐈𝐅 𝐈'𝐌 𝐎𝐍"
+        text = " 🔰𝙐𝙥𝙙𝙖𝙩𝙞𝙣𝙜 𝘼𝙏𝙏𝙄𝙏𝙐𝘿𝙀 𝙨𝙥𝙖𝙢𝙚𝙧 𝙗𝙤𝙩𝙨🔥🔥🥂🥂....\n𝐓𝐘𝐏𝐄 /𝐩𝐢𝐧𝐠 𝐀𝐅𝐓𝐄𝐑 𝟓 𝐌𝐈𝐍𝐒 𝐓𝐎 𝐂𝐇𝐄𝐂𝐊 𝐈𝐅 𝐈'𝐌 𝐎𝐍"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -148,7 +148,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(UstaD, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit(
-        "Updated your 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 successfully sur!!!\nNow type `/ping` after 5 mins to check if I'm on🚶😏"
+        "🔥🥂✨𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐀𝐓𝐓𝐈𝐓𝐔𝐃𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲🔥🥂✨⚡ sur!!!\nNow type `/ping` after 5 mins to check if I'm on🚶😏"
     )
     await remote.push(refspec=refspec)
     await UstaD.disconnect()

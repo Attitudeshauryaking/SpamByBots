@@ -92,5 +92,5 @@ async def spam(e):
 @UstaD19.on(events.NewMessage(pattern="/repo"))
 @UstaD20.on(events.NewMessage(pattern="/repo"))
 async def hapy(event):
-     a="Hҽɾҽ Iʂ Tԋҽ Rҽρσ [⚡𝐙 𝐁𝐥𝐚𝐜𝐤 𝐔𝐬𝐞𝐫𝐛𝐨𝐭⚡](https://github.com/ANMOL12334/SpamByBots)"
+     a="Hҽɾҽ Iʂ Tԋҽ Rҽρσ [⚡𝐀𝐓𝐓𝐈𝐓𝐔𝐃𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓⚡](Https://t.me/Alone_Shaurya_king)"
      await event.edit(a)
